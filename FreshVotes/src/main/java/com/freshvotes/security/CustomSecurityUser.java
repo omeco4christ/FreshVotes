@@ -31,19 +31,19 @@ public class CustomSecurityUser extends User implements UserDetails{
 	@Override
 	public Set<Authority> getAuthorities() {
 		// TODO Auto-generated method stub
-		return this.getAuthorities();
+		return super.getAuthorities();
 	}
 
 	@Override
 	public String getPassword() {
 		// TODO Auto-generated method stub
-		return this.getPassword();
+		return super.getPassword();
 	}
 
 	@Override
 	public String getUsername() {
 		// TODO Auto-generated method stub
-		return this.getUsername();
+		return super.getUsername();
 	}
 
 	@Override
